@@ -1,0 +1,6 @@
+FROM nodered/node-red-docker:rpi
+
+RUN npm install node-red-contrib-openhab2
+RUN npm install node-red-contrib-mqtt-broker
+RUN npm install node-red-contrib-ros
+RUN npm install node-red-contrib-image-output 
